@@ -55,8 +55,9 @@ Criar um Bot para Controle de Gastos Familiares no WhatsApp.
 - **Python**: Linguagem de programação principal do projeto.
 - **Pywhatkit**: Biblioteca para interagir com o WhatsApp.
 - **Pandas**: Biblioteca para manipulação e análise de dados.
-- **WhatsApp Business API**: API para integrar o bot ao WhatsApp.
+- **Twilio**: Plataforma de comunicação para integrar o bot ao WhatsApp.
 - **GitHub**: Para versionamento e colaboração.
+- **Conda**: Gerenciador de ambientes virtuais.
 - Novas tecnologias que sejam necessárias para dar continuidade ao projeto.
 
 ---
