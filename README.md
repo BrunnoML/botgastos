@@ -75,15 +75,36 @@ Criar um Bot para Controle de Gastos Familiares no WhatsApp.
 
 1. Clone este repositório:
 ```bash
- git clone https://github.com/seu-usuario/botgastos.git
+ git clone https://github.com/BrunnoML/botgastos.git
 ```
-2. Crie um ambiente virtual e ative-o.
-3. Instale as dependências: 
+
+2. Crie um ambiente virtual conda e ative-o.
+```bash
+ conda create -n botgastos python=3.9
+```
+
+3. Ativar o ambiente virtual conda:
+```bash
+conda activate botgastos
+```
+
+4. Instale as dependências: 
 ```bash
 pip install -r requirements.txt
 ```
-4. Configure a API do WhatsApp Business.
-5. Execute o bot: 
+
+5. Criar uma conta no Twilio: Acesse o site do Twilio e crie uma conta.
+
+6. Configurar o Twilio Sandbox para WhatsApp (opcional): Siga as instruções no site do Twilio para ativar o Sandbox e testar a API do WhatsApp.
+
+
+7. Adicionar seu número Hushed ou outro (como do próprio Twilio) no Twilio: No painel do Twilio, adicione seu número em "Programmable SMS" > "WhatsApp" > "Senders".
+
+8. Preencher o formulário de solicitação da API do WhatsApp: Preencha o formulário com as informações solicitadas.
+
+9. Aguardar a aprovação do Twilio e do WhatsApp:
+
+10. Execute o bot: 
 ```bash
 python main.py
 ```
