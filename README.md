@@ -52,13 +52,22 @@ Criar um Bot para Controle de Gastos Familiares no WhatsApp.
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python**: Linguagem de programação principal do projeto.
+- **Python**: Linguagem de programação principal do projeto. Estamos utilizando a versão 3.9.
 - **Pywhatkit**: Biblioteca para interagir com o WhatsApp.
 - **Pandas**: Biblioteca para manipulação e análise de dados.
 - **Twilio**: Plataforma de comunicação para integrar o bot ao WhatsApp.
 - **GitHub**: Para versionamento e colaboração.
 - **Conda**: Gerenciador de ambientes virtuais.
 - Novas tecnologias que sejam necessárias para dar continuidade ao projeto.
+
+
+### Motivo de usar o Python 3.9 ao criar o ambiente virtual Conda por alguns motivos:
+
+- **Compatibilidade**: A biblioteca twilio para Python, que usaremos para integrar o bot ao WhatsApp, suporta oficialmente o Python 3.9. Embora a biblioteca também suporte versões mais recentes do Python, como 3.10 e 3.11, o Python 3.9 oferece uma base sólida e estável para o nosso projeto.
+- **Estabilidade**: O Python 3.9 é uma versão madura e estável, com um grande número de bibliotecas e pacotes compatíveis. Isso reduz o risco de encontrarmos problemas de compatibilidade ou bugs durante o desenvolvimento do bot.
+- **Recursos**: O Python 3.9 possui todos os recursos necessários para construir o nosso bot, incluindo suporte para as bibliotecas pandas e twilio, além de oferecer um bom desempenho e ferramentas para desenvolvimento web, caso precisemos criar uma interface web para o bot no futuro.
+- **Equilíbrio**: Escolher uma versão intermediária como o Python 3.9 oferece um bom equilíbrio entre compatibilidade, estabilidade e acesso aos recursos mais recentes. Evitamos usar uma versão muito antiga, que pode ter problemas de segurança ou falta de suporte, e também evitamos usar a versão mais recente, que pode ter menos bibliotecas compatíveis ou apresentar instabilidades.
+
 
 ---
 
