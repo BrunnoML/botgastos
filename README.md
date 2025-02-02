@@ -111,12 +111,27 @@ python main.py
 
 ---
 
-## 🚀 Como Contribuir
+## 🤝 Como Contribuir
+
+Sinta-se à vontade para contribuir com o projeto! Você pode ajudar de diversas maneiras:
+
+* Reportando bugs: Encontrou algum erro ou problema no código? Abra uma issue no GitHub detalhando o problema e como reproduzi-lo.
+
+* Sugerindo melhorias: Tem ideias para novas funcionalidades ou como melhorar o bot? Abra uma issue no GitHub descrevendo sua sugestão.
+
+* Corrigindo bugs e implementando funcionalidades: Se você tem habilidades de programação, pode corrigir bugs ou implementar novas funcionalidades. Faça um fork do repositório, crie uma branch para sua contribuição, faça as alterações e envie um Pull Request.
+
+* Melhorando a documentação: A documentação é fundamental para que outras pessoas possam entender e usar o projeto. Você pode ajudar melhorando o README.md ou criando tutoriais e exemplos de uso.
+
+* Compartilhando o projeto: Divulgue o projeto para seus amigos e colegas que possam se interessar.
+
+### Como enviar um Pull Request:
 
 1. Faça um fork deste repositório.
+
 2. Clone o seu fork:
    ```bash
-   git clone https://github.com/seu-usuario/botgastos.git
+   git clone https://github.com/BrunnoML/botgastos.git
    ```
 3. Crie uma branch para a sua contribuição:
    ```bash
@@ -135,6 +150,16 @@ python main.py
    git push origin minha-contribuicao
    ```
 7. Abra um Pull Request!
+
+### Dicas para contribuir:
+
+- Siga as boas práticas de programação em Python.
+- Escreva código limpo e legível.
+- Adicione testes para as suas alterações.
+- Documente o seu código.
+- Comunique-se de forma clara e respeitosa.
+
+A sua contribuição é muito bem-vinda! 😊
 
 ---
 
