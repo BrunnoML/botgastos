@@ -1,16 +1,16 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
+*.py
 *.pyo
+*.so
 
 # Environment files
 .env
 *.env
 
-# Virtual environments
-venv/
-.env/
-*.venv/
+# Virtual environments (Conda)
+.conda/
+envs/
 
 # Logs and debug files
 *.log
